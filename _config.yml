@@ -54,8 +54,8 @@ start-delay: 200
 delete-delay: 4000
 lines: # You can add HTML Tags in the Text
   - text: "Hi, this is Siqi Fan."
-  - text: "I am a Graduate Student @ CASIA."
-  - text: "I received my B.E. degree from SJTU."
+  - text: "I am a researcher @ AIR, THU"
+  - text: "I received my M.S. from CASIA and B.E. from SJTU."
 
 me-img: "/img/bio.jpg"
 
@@ -130,8 +130,14 @@ syntax-highlight: True
 ############
 
 events:
+  - image: "/img/timeline/THU.png"
+    date: "JUL 2022 - TODAY"
+    description: "Researcher <br> @ Institute for AI Industry Research, Tsinghua University (AIR)"
+  - image: "/img/timeline/CASIA.png"
+    date: "Sept 2019 - Jun 2022"
+    description: "Student Researcher <br> @ Institute of Automation, Chinese Academy of Sciences (CASIA)"
   - image: "/img/timeline/UCAS.png"
-    date: "Sept 2019 - Today"
+    date: "Sept 2019 - Jun 2022"
     description: "M.S. in Automation <br> @ School of Artificial Intelligence, University of Chinese Academy of Sciences (UCAS)"
   - image: "/img/timeline/INTEL.png"
     date: "Aug 2020 - Dec 2021"
