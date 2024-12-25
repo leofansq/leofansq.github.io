@@ -1,0 +1,93 @@
+primary_name: "Siqi Fan"
+secondary_name: ""
+navbar_name: "Siqi Fan"
+
+positions:
+- logo: /assets/images/badges/THU.png  # Logo is optional
+  name: Researcher @ AIR, Tsinghua University
+
+email: "leofansq@gmail.com"
+cv_link: /assets/files/resume.pdf
+gscholar: Ahy5smMAAAAJ  # This is an example, replace it with your own Google Scholar ID
+github: leofansq
+# twitter: your_twitter_id  # Do not include the '@' symbol
+# wechat_qrcode: /assets/images/etc/wechat.jpg
+# wechat_prompt: >-
+#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+# linkedin: your-linked-in-id
+# orcid: 0000-0000-0000-0000
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>
+  I'm Siqi Fan (范嗣祺), a researcher at Institute for AI Industry Research, Tsinghua University <em>(AIR, THU)</em>. Previously, I received my M.S. degree from Institute of Automation, Chinese Academy of Sciences <em>(CASIA)</em> in 2022, and my B.E. degree from Shanghai Jiao Tong University <em>(SJTU)</em> in 2019.
+  </p>
+  <p>
+  I am broadly interested in Representation Learning in Complex System from physical world <b>[Macro]</b> to biological world <b>[Micro]</b>, aiming to create AI agent that perceive like or beyond human. Driven by the dedication to innovation, I aspire to advance the fields of autonomous driving and biomedical discovery, pushing the boundaries of technology to create impactful products.
+  </p>
+  <p>
+  I love music and visual arts.
+  </p>
+
+portrait_url: /assets/images/portrait.jpg
+# portrait_caption: >-
+#   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+
+education:
+- name: Shanghai Jiao Tong University (SJTU)
+  logo: /assets/images/badges/SJTU.png
+  position: >- 
+    School of Electronic Information and Electrical Engineering <br/>
+    B.E. in Automation
+  date: Sep. 2015 - Jul. 2019
+- name: Chinese Academy of Sciences (CAS)
+  logo: /assets/images/badges/UCAS.png
+  position: >- 
+    Institute of Automation <br/>
+    M.S. in Automation
+  date: Sep. 2019 - Jul. 2022
+
+experience:
+- name: Intel Labs China (ILC)
+  logo: /assets/images/badges/INTEL.png
+  position: Research Intern
+  date: Aug. 2020 - Dec. 2021
+- name: Institute of Automation, Chinese Academy of Sciences (CASIA)
+  logo: /assets/images/badges/CASIA.png
+  position: Student Researcher
+  date: Sep. 2019 - Jul. 2022
+- name: Institute for AI Industry Research, Tsinghua University (AIR)
+  logo: /assets/images/badges/THU.png
+  position: Researcher
+  date: Jul. 2022 - Present
+
+service:
+- title: Program Committee
+  content: >-
+  <p>
+  1st Workshop on Cooperative Intelligence for Embodied AI <em>[ECCV'24]</em>
+  </p>
+- title: Journal Reviewer
+  content: >-
+  <p>
+  IEEE T-IP, IEEE T-CSVT, IEEE T-VT, IEEE T-IV, PR, IET CV, IET CSR, IEEE ITSM
+  </p>
+- title: Conference Reviewer
+  content: >-
+  <p>
+  CVPR, ECCV, ICRA, IROS, ITSC
+  </p>
+- title: Invited Talk
+  content: >-
+  <p>
+  Traffic scenes understanding and simulation testing <em>[ITSC Workshop'22]</em>
+  </p>
+
+# awards:
+# - name: Award Name 2
+#   date: 2024
+# - name: Award Name 1 
+#   date: 2021
+# - name: A quick brown fox jumps over the lazy dog and runs away award
+#   date: 2021
+
