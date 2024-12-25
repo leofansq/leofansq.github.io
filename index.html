@@ -20,6 +20,13 @@ navbar_title: Home
     {% endif %}
 {% endif %}
 
+{% if site.data.display.homepage.show_research %}
+    {%
+        include widgets/research_card.html 
+        title='<i class="fas fa-star"></i> Research Roadmap'
+    %}
+{% endif %}
+
 {% if site.data.display.homepage.show_selected_publications %}
     {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
     {% 

@@ -9,9 +9,9 @@
         {%- assign key = _key | split: "*" | first -%}
         {%- assign mark = "*" -%}
         {%- assign has_eq_contrib = true -%}
-    {%- elsif last_char == "^" -%}
-        {%- assign key = _key | split: "^" | first -%}
-        {%- assign mark = "^" -%}
+    {%- elsif last_char == "@" -%}
+        {%- assign key = _key | split: "@" | first -%}
+        {%- assign mark = '<sup>@</sup>' -%}
         {%- assign has_mentored = true -%}
     {%- elsif last_char == "#" -%}
         {%- assign key = _key | split: "#" | first -%}
@@ -46,13 +46,13 @@
 
 {%- endfor -%}
 
-{%- if has_eq_contrib or has_corresponding %}
+{%- if has_eq_contrib or has_corresponding or has_mentored %}
 <mark>(
     {%- if has_eq_contrib -%}
         * <i> equal contribution</i>
     {%- endif -%}
     {%- if has_mentored -%}
-        ^ <i> mentored</i>
+        <sup>@</sup> <i> mentored</i>
     {%- endif -%}
     {%- if has_corresponding -%}
         {%- if has_eq_contrib -%}, {% endif -%}

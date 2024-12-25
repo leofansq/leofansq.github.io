@@ -1,5 +1,5 @@
 ---
-title:          "Learning cooperative trajectory representations for motion forecasting"
+title:          "Learning Cooperative Trajectory Representations for Motion Forecasting"
 date:           2023-11-01 00:01:00 +0800
 selected:       false
 pub:            "Advances in Neural Information Processing Systems (NeurIPS)"
@@ -8,12 +8,10 @@ pub:            "Advances in Neural Information Processing Systems (NeurIPS)"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2024"
 abstract: >-
-  <p>
   Motion forecasting is an essential task for autonomous driving, and utilizing information from infrastructure and other vehicles can enhance forecasting capabilities. Existing research mainly focuses on leveraging single-frame cooperative information to enhance the limited perception capability of the ego vehicle, while underutilizing the motion and interaction context of traffic participants observed from cooperative devices. In this paper, we propose a forecasting-oriented representation paradigm to utilize motion and interaction features from cooperative information. Specifically, we present V2X-Graph, a representative framework to achieve interpretable and end-to-end trajectory feature fusion for cooperative motion forecasting. V2X-Graph is evaluated on V2X-Seq in vehicle-to-infrastructure (V2I) scenarios. To further evaluate on vehicle-to-everything (V2X) scenario, we construct the first real-world V2X motion forecasting dataset V2X-Traj, which contains multiple autonomous vehicles and infrastructure in every scenario. Experimental results on both V2X-Seq and V2X-Traj show the advantage of our method. We hope both V2X-Graph and V2X-Traj will benefit the further development of cooperative motion forecasting.
-  </p>
 cover:          /assets/images/covers_researches/V2X-Graph.png
 authors:
-  - Hongzhi Ruan^
+  - Hongzhi Ruan@
   - Haibao Yu
   - Wenxian Yang
   - Siqi Fan
@@ -21,4 +19,5 @@ authors:
 links:
   Paper: https://arxiv.org/pdf/2311.00371
   Code: https://github.com/AIR-THU/V2X-Graph
+  第三方中文解读: https://mp.weixin.qq.com/s/6vroV_0oNzUmj_5XylaOZQ?poc_token=HFYUdWejms_QZ8lKcunvPwHPal3dLQXoSIt4XWfk
 ---

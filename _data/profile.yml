@@ -7,7 +7,7 @@ positions:
   name: Researcher @ AIR, Tsinghua University
 
 email: "leofansq@gmail.com"
-cv_link: /assets/files/resume.pdf
+# cv_link: /assets/files/resume.pdf
 gscholar: Ahy5smMAAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: leofansq
 # twitter: your_twitter_id  # Do not include the '@' symbol
@@ -17,13 +17,13 @@ github: leofansq
 # linkedin: your-linked-in-id
 # orcid: 0000-0000-0000-0000
 
-short_bio_text_justify: false
+short_bio_text_justify: true
 short_bio: >-
   <p>
   I'm Siqi Fan (范嗣祺), a researcher at Institute for AI Industry Research, Tsinghua University <em>(AIR, THU)</em>. Previously, I received my M.S. degree from Institute of Automation, Chinese Academy of Sciences <em>(CASIA)</em> in 2022, and my B.E. degree from Shanghai Jiao Tong University <em>(SJTU)</em> in 2019.
   </p>
   <p>
-  I am broadly interested in Representation Learning in Complex System from physical world <b>[Macro]</b> to biological world <b>[Micro]</b>, aiming to create AI agent that perceive like or beyond human. Driven by the dedication to innovation, I aspire to advance the fields of autonomous driving and biomedical discovery, pushing the boundaries of technology to create impactful products.
+  I am broadly interested in Representation Learning in Complex Systems, from macro <em>physical world</em> to micro <em>biological world</em>, aiming to create AI agents that perceive like or beyond human. Driven by the dedication to innovation, I aspire to advance the fields of autonomous driving and biomedical discovery, pushing the boundaries of technology to create impactful products.
   </p>
   <p>
   I love music and visual arts.
@@ -40,7 +40,7 @@ education:
     School of Electronic Information and Electrical Engineering <br/>
     B.E. in Automation
   date: Sep. 2015 - Jul. 2019
-- name: Chinese Academy of Sciences (CAS)
+- name: University of Chinese Academy of Sciences (UCAS)
   logo: /assets/images/badges/UCAS.png
   position: >- 
     Institute of Automation <br/>
@@ -48,7 +48,7 @@ education:
   date: Sep. 2019 - Jul. 2022
 
 experience:
-- name: Intel Labs China (ILC)
+- name: Autonomous System Group, Intel Labs China (ILC)
   logo: /assets/images/badges/INTEL.png
   position: Research Intern
   date: Aug. 2020 - Dec. 2021
@@ -56,38 +56,77 @@ experience:
   logo: /assets/images/badges/CASIA.png
   position: Student Researcher
   date: Sep. 2019 - Jul. 2022
-- name: Institute for AI Industry Research, Tsinghua University (AIR)
+- name: Institute for AI Industry Research, Tsinghua University (AIR, THU)
   logo: /assets/images/badges/THU.png
   position: Researcher
   date: Jul. 2022 - Present
 
 service:
-- title: Program Committee
+- title: Program Committee & Area Chair
   content: >-
-  <p>
-  1st Workshop on Cooperative Intelligence for Embodied AI <em>[ECCV'24]</em>
-  </p>
+    <p>
+    <a href="https://coop-intelligence.github.io/" target="_blank">Workshop on Multi-Agent Embodied Intelligent Systems Meet Generative-AI Era</a> @ <em>CVPR'25</em><br>
+    <a href="https://coop-intelligence.github.io/eccv2024/" target="_blank">Workshop on Cooperative Intelligence for Embodied AI</a> @ <em>ECCV'24</em>
+    </p>
 - title: Journal Reviewer
   content: >-
-  <p>
-  IEEE T-IP, IEEE T-CSVT, IEEE T-VT, IEEE T-IV, PR, IET CV, IET CSR, IEEE ITSM
-  </p>
+    <p>
+    IEEE (TIP, TCSVT, TVT, TIV, ITSM), IET (CV, CSR), PR, Neurocomputing
+    </p>
 - title: Conference Reviewer
   content: >-
-  <p>
-  CVPR, ECCV, ICRA, IROS, ITSC
-  </p>
-- title: Invited Talk
+    <p>
+    CVPR, ICCV, ECCV, ICRA, IROS, ITSC
+    </p>
+- title: Invited Speaker
   content: >-
-  <p>
-  Traffic scenes understanding and simulation testing <em>[ITSC Workshop'22]</em>
-  </p>
+    <p>
+    Traffic scenes understanding and simulation testing @ <em>ITSC'22</em>
+    </p>
 
-# awards:
-# - name: Award Name 2
-#   date: 2024
-# - name: Award Name 1 
-#   date: 2021
-# - name: A quick brown fox jumps over the lazy dog and runs away award
-#   date: 2021
+awards:
+- name: National Scholarship
+  date: 2021
+- name: Pan Deng First-class Scholarship, CAS 
+  date: 2022
+- name: Excellent Scholarship, SJTU
+  date: 2018
+- name: China Industrial Intelligence Challenge, State-level Outstanding Award, CAA
+  date: 2018
 
+
+research:
+- name: Autonomous Driving (AD)
+  subarea:
+  - name: Onboard System (Intelligent Vehicle)
+    content: >-
+      <p>
+      My exploration on vehicle-side environment perception starts from drivable area detection <em>(ITSC’20)</em>, and a series perception algorithms are proposed, including a RGB 2D object detection approach <em>(FII-CenterNet, T-VT’21)</em>, a semi-supervised learning approach for RGB 2D segmentation <em>(CPCL, T-IP’22)</em>, a RGB-T segmentation approach for challenging lighting conditions <em>(SpiderMesh, TechReport’23)</em>, and a 3D segmentation approach for large-scale points cloud <em>(SCF-Net, CVPR’21)</em>.
+      </p>
+  - name: Roadside System (Intelligent Infrastructure)
+    content: >-
+      <p>
+      Compared with the well-studied vehicle-side perception, roadside perception has several specific challenges, and the exploration is hindered due to the lack of data. A calibration-free BEV representation network is proposed to address calibration noises caused by inevitable natural factors <em>(CBR, IROS’23)</em>. A semantic-geometry decoupled contrastive learning framework is introduced to improve roadside perception performance by leveraging vehicle-side data <em>(IROAM, ICRA’25)</em>, and the first real-world large-scale dataset for roadside cooperative perception is released with benchmarks to bloom the research on practical I2I perception <em>(RCooper, CVPR’24)</em>.
+      </p>
+  - name: Cooperative Autonomous Driving System (V2X)
+    content: >-
+      <p>
+      Cooperative perception can effectively enhance individual perception performance by providing additional viewpoint and expanding the sensing field. A scene-level feature cooperative perception approach is proposed <em>(EMIFF, ICRA’24)</em>. To enable interpretable instance-level flexible feature interaction, the concept of query cooperation is proposed, and a cooperative perception framework is introduced, which let query stream flow among agents <em>(QUEST, ICRA’24)</em>. Besides, motion forecasting can also benefit from learning cooperative trajectory representation <em>( NeurIPS'24)</em>. In addition to focusing on improving individual modules, a pioneering end-to-end cooperative autonomous driving framework is introduced <em>(UniV2X, AAAI’25)</em>.
+      </p>
+- name: Biomedical Discovery (BD)
+  subarea:
+  - name: Biomedical Agent System
+    content: >-
+      <p>
+      Compared with representation learning in physical world, that for biological modality is more complicated.
+      </p>
+  - name: Human-Agent Interaction System
+    content: >-
+      <p>
+      Recent advances in LLMs have shed light on the development of knowledgeable and versatile AI research assistants in various scientific domains. Multimodal large language models bridge the semantic gap between natural language and other modalities, including molecule, protein, and vision. A multimodal large language model is proposed for assisting biomedical research <em>(BioMedGPT, J-BHI’24)</em>, and optical chemical structure understanding task is introduced and explored for molecule-centric scientific discovery <em>(OCSU, TechReport’25)</em>.
+      </p>
+  - name: Multi-Agent Cooperation System
+    content: >-
+      <p>
+      Multi-agent cooperation is a potential approach to solve complicated scientific research tasks in an autopilot manner. To facilitate the exploration, an agent platform for biomedicine and life science is presented and open-sourced <em>( <a href="https://github.com/PharMolix/OpenBioMed" target="_blank">OpenBioMed</a>)</em>
+      </p>

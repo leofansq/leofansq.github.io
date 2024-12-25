@@ -9,7 +9,7 @@ group: Selected Projects
   <div class="card-body">
     <h5 class="card-title">KITTI2FishEye</h5>
     <p class="card-text">
-      <b>[Tool]</b> From normal image to fisheye image
+      <b>[Tool]</b> Rebuild Fisheye image from normal image based on equidistance projection
     </p>
     <p class="card-text"><small><a href="https://github.com/leofansq/Tools_KITTI2FishEye" target="_blank">Explore and have fun!</a></small></p>
   </div>

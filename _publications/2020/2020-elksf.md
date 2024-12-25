@@ -8,9 +8,7 @@ pub:            "IEEE International Conference on Intelligent Transportation Sys
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2020"
 abstract: >-
-  <p>
   We proposed a road detection network, which integrates the classification results based on different feature combinations by weighted voting. To focus on key samples, a novel loss function is proposed. The loss function can attach importance to hard samples and pay different attention to missed detection and false detection. The method is evaluated on <em>KITTI</em>, and its effectiveness is verified.
-  </p>
 cover:          /assets/images/covers_researches/EL-KSF.png
 authors:
   - Siqi Fan
