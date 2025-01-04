@@ -1,6 +1,6 @@
 ---
 show: true
-width: 6
+width: 12
 date: 2024-12-24 00:01:00 +0800
 group: Selected Projects
 ---
