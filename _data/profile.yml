@@ -65,9 +65,7 @@ service:
 - title: Program Committee & Area Chair
   content: >-
     <p>
-    <a href="https://coop-intelligence.github.io/" target="_blank">Workshop on Multi-Agent Embodied Intelligent Systems Meet Generative-AI Era</a> @ <em>CVPR'25</em>
-    </p>
-    <p>
+    <a href="https://coop-intelligence.github.io/" target="_blank">Workshop on Multi-Agent Embodied Intelligent Systems Meet Generative-AI Era</a> @ <em>CVPR'25</em><br>
     <a href="https://coop-intelligence.github.io/eccv2024/" target="_blank">Workshop on Cooperative Intelligence for Embodied AI</a> @ <em>ECCV'24</em>
     </p>
 - title: Journal Reviewer
