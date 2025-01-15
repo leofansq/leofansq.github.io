@@ -19,5 +19,8 @@ authors:
 links:
   Paper: https://arxiv.org/pdf/2308.01804.pdf
   Code: https://github.com/leofansq/QUEST
+  Graphic Abstract: https://drive.google.com/file/d/1VgmYs5AoGBZG6QtzSAaMiQyUdk1Aw9Le/view?usp=drive_link
+  PPT: https://drive.google.com/file/d/1yi1HXemMOxmo6SLMZcJPzg1lhO2CRuw4/view?usp=drive_link
+  Video: https://drive.google.com/file/d/16-mL8S_GVyw_ra8VJyKEWbDrjHQSJ7bP/view?usp=drive_link
   第三方中文解读: https://blog.csdn.net/lwk___123/article/details/138217651
 ---
