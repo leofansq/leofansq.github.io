@@ -71,7 +71,7 @@ service:
 - title: Journal Reviewer
   content: >-
     <p>
-    IEEE (TIP, TCSVT, TVT, TIV, ITSM), IET (CV, CSR), PR
+    IEEE (TIP, TCSVT, TVT, TIV, ITSM), IET (CV, CSR), PR, Neurocomputing
     </p>
 - title: Conference Reviewer
   content: >-
@@ -87,10 +87,10 @@ service:
 awards:
 - name: National Scholarship
   date: 2021
-- name: CASIA 'Pan Deng' First-class Scholarship 
+- name: 'Pan Deng' First-class Scholarship, CAS 
   date: 2022
-- name: Shanghai Jiao Tong University Excellent Scholarship
+- name: Excellent Scholarship, SJTU
   date: 2018
-- name: China Industrial Intelligence Challenge, Outstanding Award (State Level)
+- name: China Industrial Intelligence Challenge, State-level Outstanding Award, CAA
   date: 2018
 
