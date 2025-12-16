@@ -1,6 +1,6 @@
 ---
 title:          "IROAM: Improving Roadside Monocular 3D Object Detection Learning from Autonomous Vehicle Data Domain"
-date:           2025-01-01 00:01:00 +0800
+date:           2025-01-25 00:01:00 +0800
 selected:       false
 pub:            "IEEE International Conference on Robotics and Automation (ICRA)"
 # pub_pre:        "Submitted to "

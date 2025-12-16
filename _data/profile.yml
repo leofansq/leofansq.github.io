@@ -25,8 +25,8 @@ short_bio: >-
   <p>
   My research interests lie broadly in Representation Learning in Complex Systems, spanning from the macro <em>physical world</em> to the micro <em>biological world</em>. With the goal of increasing human "Available Time" through AI technology, I primarily concentrate on 
   <ul>
-    <li>Autonomous Driving: boost the proportion of time available for meaningful activities</li> 
-    <li>Biomedical Discovery: extend the total lifespan</li>
+    <li>Autonomous Driving (physical) for improving traffic efficiency and safety;</li> 
+    <li>Biomedical Discovery (biological) for extending lifespan.</li>
   </ul>
   Fueled by a passion for innovation, I am dedicated to pushing the frontiers of technology and developing impactful products.
   </p>
@@ -76,17 +76,17 @@ service:
 - title: Journal Reviewer
   content: >-
     <p>
-    IEEE (TIP, TCSVT, TVT, TIV, ITSM), IET (CV, CSR), PR, Neurocomputing
+    IEEE (TIP, TCSVT, TVT, TIV, TITS, TMC, JIoT, ITSM), IJCV, IET (CV, CSR), PR, Trans. PartC, Neurocomputing
     </p>
 - title: Conference Reviewer
   content: >-
     <p>
-    CVPR, ICCV, ECCV, ICRA, IROS, ITSC
+    NeurIPS, CVPR, ICCV, ECCV, AAAI, ICRA, IROS, WACV, ITSC
     </p>
 - title: Invited Speaker
   content: >-
     <p>
-    Traffic scenes understanding and simulation testing @ <em>ITSC'22</em>
+    <a href="https://drive.google.com/file/d/1dyss0rBnvK7iMQOcFYcmq2j5nD3MRVD8/view?usp=drive_link" target="_blank">Traffic scenes understanding and simulation testing</a> @ <em>ITSC'22</em>
     </p>
 
 awards:
@@ -116,7 +116,7 @@ research:
   - name: Cooperative Autonomous Driving System (V2X)
     content: >-
       <p>
-      Cooperative perception can significantly enhance individual perception performance by providing additional viewpoints and expanding the sensing field. A scene-level feature cooperative perception approach is proposed <em>(EMIFF, ICRA’24)</em>. To enable interpretable, instance-level, and flexible feature interactions, the concept of query cooperation is introduced, along with a cooperative perception framework that allows query streams to flow among agents <em>(QUEST, ICRA’24)</em>. Additionally, motion forecasting can also benefit from learning cooperative trajectory representations <em>(NeurIPS’24)</em>. Beyond focusing on improving individual modules, a pioneering end-to-end cooperative autonomous driving framework is introduced <em>(UniV2X, AAAI’25)</em>.
+      Cooperative perception can significantly enhance individual perception performance by providing additional viewpoints and expanding the sensing field. A scene-level feature cooperative perception approach is proposed <em>(EMIFF, ICRA’24)</em>. To enable interpretable, instance-level, and flexible feature interactions, the concept of query cooperation is introduced, along with a cooperative perception framework that allows query streams to flow among agents <em>(QUEST, ICRA’24)</em>. Additionally, motion forecasting can also benefit from learning cooperative trajectory representations <em>(NeurIPS’24)</em>. Beyond focusing on improving individual modules, a pioneering end-to-end cooperative autonomous driving framework is introduced <em>(UniV2X, AAAI’25)</em>, and several workshops/challenges are organized <em>(ECCV’24 & CVPR’25)</em>.
       </p>
 - name: Biomedical Discovery (BD)
   subarea:
@@ -128,7 +128,7 @@ research:
   - name: Human-Agent Interaction System
     content: >-
       <p>
-      Recent advances in LLMs have illuminated the path toward developing knowledgeable and versatile AI research assistants across various scientific domains. Multimodal large language models are particularly promising, as they bridge the semantic gap between natural language and other modalities such as molecules, proteins, and visual information. In this context, a multimodal large language model is proposed to assist biomedical research <em>(BioMedGPT, J-BHI’24)</em>. Additionally, the task of optical chemical structure understanding is introduced and explored to facilitate molecule-centric scientific discovery <em>(OCSU, TechReport’25)</em>.
+      Recent advances in LLMs have illuminated the path toward developing knowledgeable and versatile AI research assistants across various scientific domains. Multimodal large language models are particularly promising, as they bridge the semantic gap between natural language and other modalities such as molecules, proteins, and visual information. In this context, a multimodal large language model is proposed to assist biomedical research <em>(BioMedGPT, J-BHI’24)</em>, and it is further extented to the first biomedical multimodal reasoning model, BioMedGPT-R1, through reinforcement learning <em>(BioMedGPT-R1, TechReport’25)</em>. Molecules are often depicted as 2D images in scientific papers and patents. To extract and analyze molecular information from such documents, the task of Optical Chemical Structure Understanding (OCSU) has been introduced and systematically explored <em>(OCSU, TechReport’25)</em>. To further facilitate molecule-centric scientific discovery, we propose BioMedGPT-Mol, a unified model designed to support both molecular understanding and molecular generation tasks <em>(BioMedGPT-Mol, TechReport’25)</em>.
       </p>
   - name: Multi-Agent Cooperation System
     content: >-

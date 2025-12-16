@@ -13,9 +13,10 @@ cover:          /assets/images/covers_researches/PharMolixFM.png
 authors:
   - Yizhen Luo*
   - Jiashuo Wang*
-  - Siqi Fan
+  - Siqi Fan*
   - Zaiqing Nie
 links:
   Paper: https://arxiv.org/pdf/2503.21788
   Code: https://github.com/PharMolix/OpenBioMed
+  第三方中文解读: https://mp.weixin.qq.com/s/w8ughba1BHSheAWnTxZh1w
 ---
